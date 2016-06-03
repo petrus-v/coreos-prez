@@ -27,6 +27,7 @@ class: center, middle
 ### Démo
 
 --
+count: false
 
 ### Orchestration
 ### Projets liés
@@ -46,12 +47,12 @@ template: tmpl-inverse
 name: kesako
 
 .left-column[
-  ## C'est quoi?
+  ## Introdution
+  ### C'est quoi?
 ]
 .right-column[
 
   - Un système d'exploitation
-
   - cluster
 
 ]
@@ -63,8 +64,9 @@ TODO:
 ---
 name: why
 .left-column[
-  ## C'est quoi?
-  ## Pourquoi?
+  ## Introdution
+  ### C'est quoi?
+  ### Pourquoi?
 ]
 .right-column[
 
@@ -72,10 +74,17 @@ name: why
 
 .footnote[.red[*] love challange]
 ]
+
+---
 template: inverse
 name: concepts
 
 ## Comment ça fonctionne ?
+
+[System de package](#packaging)
+[]()
+
+
 ---
 .left-column[
   ## Comennt ça fonctionne ?
@@ -83,8 +92,15 @@ name: concepts
 ]
 .right-column[
 
+  Il n'y en a pas !
+
 ]
----
+
+???
+
+Apt, Yum...
+
+----
 .left-column[
   ## Comennt ça fonctionne ?
   ### - Packaging
@@ -92,21 +108,114 @@ name: concepts
 ]
 .right-column[
 
+    Mécanisme de mise à jour
 ]
+
+???
+
+Citer les avantages / inconvénients:
+https://coreos.com/using-coreos/updates/
+
+ * cohérence entre les applicatifs 
+ * rapide à mettre à jour
+
 ---
 name: components
 template: tmpl-inverse
 # Les composants
 
-* Kernel
-* rkt
-* docker
-* etcd
-* systemd
-* fleet
+[Kernel Linux](#kernel)
+[rkt](#rkt)
+[docker](#docker)
+[etcd](#etcd)
+[systemd](#systemd)
+[fleet](#fleet)
 
 ???
 
-Donner quelques informations succinte
+Ne pas donner trop d'info, on va les parcourir un à un
 
 ---
+name: kernel
+
+.left-column[
+  ## Composants
+  ### - kernel
+]
+.right-column[
+
+
+
+]
+
+???
+
+---
+name: rkt
+
+.left-column[
+  ## Composants
+  ### - kernel
+  ### - rkt
+]
+.right-column[
+
+
+
+]
+
+???
+
+---
+name: docker
+
+.left-column[
+  ## Composants
+  ### - kernel
+  ### - rkt
+  ### - docker
+]
+.right-column[
+
+
+
+]
+
+???
+
+---
+name: systemd
+
+.left-column[
+  ## Composants
+  ### - kernel
+  ### - rkt
+  ### - docker
+  ### - systemd
+]
+.right-column[
+
+
+
+]
+
+???
+
+---
+name: fleet
+
+.left-column[
+  ## Composants
+  ### - kernel
+  ### - rkt
+  ### - docker
+  ### - systemd
+  ### - fleet
+]
+.right-column[
+
+
+
+]
+
+???
