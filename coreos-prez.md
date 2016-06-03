@@ -1,41 +1,67 @@
-name: inverse
+name: tmpl-inverse
 layout: true
 class: center, middle, inverse
+
 ---
+name: cover
+
 # Présentation CoreOs
 [coreos-prez]
 
-.footnote[Auteur: Pierre Verkest [@petrusv84](http://twitter.com/petrusv84)]
+.footnote[
+    .left[ba
+    Auteur: Pierre Verkest
+    [@petrusv84](http://twitter.com/petrusv84)
+]
 
 ---
-## Sommaire
-
-## Introduction
-## Les concepts de coreos
-## Les différentes briques
-## Démo
-
-## Orchestration
-## Projets liés
-## Références
----
-## Introduction
-
-CoreOs c'est quoi?
-
-Pourquoi Anybox s'y interesse?
-
----
+name: summarise
 layout: false
+class: center, middle
+
+# Sommaire
+
+### [Introduction](#intro)
+### [Les concepts de CoreOs](#concepts)
+### [Les principaux composants de CoreOs](#components)
+### Démo
+
+--
+
+### Orchestration
+### Projets liés
+### Références
+
+---
+name: intro
+template: tmpl-inverse
+
+## Introduction
+
+[CoreOs c'est quoi ?](#kesako)
+
+[Pourquoi Anybox test CoreOs ?](#why)
+
+---
+name: kesako
+
 .left-column[
   ## C'est quoi?
 ]
 .right-column[
 
-  bla bla bla
+  - Un système d'exploitation
+
+  - cluster
 
 ]
+
+???
+
+TODO: 
+
 ---
+name: why
 .left-column[
   ## C'est quoi?
   ## Pourquoi?
@@ -47,6 +73,7 @@ layout: false
 .footnote[.red[*] love challange]
 ]
 template: inverse
+name: concepts
 
 ## Comment ça fonctionne ?
 ---
@@ -66,4 +93,20 @@ template: inverse
 .right-column[
 
 ]
+---
+name: components
+template: tmpl-inverse
+# Les composants
+
+* Kernel
+* rkt
+* docker
+* etcd
+* systemd
+* fleet
+
+???
+
+Donner quelques informations succinte
+
 ---
