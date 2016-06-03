@@ -1,2 +1,23 @@
-# coreos-prez
-CoreOs Présentation
+[![Build Status](https://travis-ci.org/petrus-v/coreos-prez.svg?branch=master)]
+(https://travis-ci.org/petrus-v/coreos-prez "Build Status")
+
+# CoreOs presentation
+
+__If you want to read the CoreOs Introduction go to [slides](
+https://petrus-v.github.io/coreos-prez "CoreOs Presentation").__
+
+
+* This slide is based on [remark](http://remarkjs.com "[ri-mahrk]")
+* build and published by [travis-ci](https://travis-ci.org "Travis")
+* hosted by [GitHub Pages](https://pages.github.com "Github Pages")
+
+All content is licensed under the [Creative Commons Attribution -
+ShareAlike 4.0 International (CC BY-SA 4.0)](
+http://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0")
+
+
+## Build it localy
+
+```bash
+ci/loc_build.sh
+```
