@@ -1,44 +1,83 @@
-template: inverse
+template: tmpl-inverse
 name: concepts
 
 ## Comment ça fonctionne ?
 
-[System de package](#packaging)
-[]()
+[Gestionnaire de paquets](#packaging)
 
+[Mise à jour du système](#upgrade)
+
+[Principaux composants](#components)
 
 ---
+name: packaging
+class: center, top
+
 .left-column[
-  ## Comennt ça fonctionne ?
-  ### - Packaging
+  ## How it works?
+  ### Packaging
 ]
 .right-column[
 
-  Il n'y en a pas !
+Il n'y en a pas !
 
 ]
 
 ???
 
-Apt, Yum...
+Apt, Yum
 
-----
+---
+name: upgrade
+class: center, top
+
 .left-column[
-  ## Comennt ça fonctionne ?
-  ### - Packaging
-  ### - Upgrade
+  ## How it works?
+  ### Packaging
+  ### Upgrade
 ]
 .right-column[
 
-    Mécanisme de mise à jour
+![CoreOs Update](img/update-diagram.png)
+
 ]
 
 ???
 
-Citer les avantages / inconvénients:
-https://coreos.com/using-coreos/updates/
+Avantages:
 
  * cohérence entre les applicatifs 
  * rapide à mettre à jour
+ * atomic et réversible
+
+---
+
+name: components
+
+.left-column[
+  ## How it works?
+  ### Packaging
+  ### Upgrade
+  ### Les composants
+]
+.right-column[
+
+* Kernel linux
+* Ignition / cloud-config
+* etcd
+* systemd
+* fleet
+* rkt / docker
+* locksmith
+* flannel
+* clair
+* ...
+
+]
+
+???
+
+écris en GO-lang
+
 
 ---

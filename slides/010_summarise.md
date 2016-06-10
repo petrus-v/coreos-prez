@@ -1,19 +1,12 @@
 name: summarise
 layout: false
-class: center, middle
+class: center, top
 
 # Sommaire
 
 ### [Introduction](#intro)
-### [Les concepts de CoreOs](#concepts)
-### [Les principaux composants de CoreOs](#components)
-### Démo
-
---
-count: false
-
-### Orchestration
-### Projets liés
-### Références
+### [Concepts et composants de CoreOs](#concepts)
+### [Démo](#demo)
+### [CoreOs chez Anybox?](#anybox)
 
 ---

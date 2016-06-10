@@ -1,6 +1,19 @@
+img {
+  max-width: 90%;
+}
+
+#slide-orchestration img {
+    max-height: 50px;
+}
+
+#slide-kesako img {
+    max-height: 75px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
 body {
   font-family: 'Droid Serif';
 }
@@ -12,6 +25,12 @@ h1, h2, h3 {
 .remark-slide-content h1 { font-size: 3em; }
 .remark-slide-content h2 { font-size: 2em; }
 .remark-slide-content h3 { font-size: 1.6em; }
+
+.headnote {
+  position: absolute;
+  top: 3em;
+}
+
 .footnote {
   position: absolute;
   bottom: 3em;
@@ -60,35 +79,6 @@ code {
 #slide-inverse .footnote {
   bottom: 12px;
   left: 20px;
-}
-#slide-how .slides {
-  font-size: 0.9em;
-  position: absolute;
-  top:  151px;
-  right: 140px;
-}
-#slide-how .slides h3 {
-  margin-top: 0.2em;
-}
-#slide-how .slides .first, #slide-how .slides .second {
-  padding: 1px 20px;
-  height: 90px;
-  width: 120px;
-  -moz-box-shadow: 0 0 10px #777;
-  -webkit-box-shadow: 0 0 10px #777;
-  box-shadow: 0 0 10px #777;
-}
-#slide-how .slides .first {
-  background: #fff;
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  z-index: 1;
-}
-#slide-how .slides .second {
-  position: relative;
-  background: #fff;
-  z-index: 0;
 }
 /* Two-column layout */
 .left-column {
