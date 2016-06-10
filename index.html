@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="coreos,presentation" />
+    <meta name="description" content="CoreOs presentation." />
+    <title>CoreOs presentation</title>
+    <link href="style/style.css" media="all" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="js/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'coreos-prez.md',
+        ratio: '4:3',  // Default: '4:3', Alternatives: '16:9',
+        highlightStyle: 'monokai',
+        highlightLanguage: 'bash',
+        highlightLines: true,
+        // Navigation options
+        navigation: {
+          // Enable or disable navigating using scroll
+          // Default: true
+          // Alternatives: false
+          scroll: false,
+
+          // Enable or disable navigation using touch
+          // Default: true
+          // Alternatives: false
+          touch: true,
+
+          // Enable or disable navigation using click
+          // Default: false
+          // Alternatives: true
+          click: true
+          },
+        }) ;
+    </script>
+  </body>
+</html>
